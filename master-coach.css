@@ -1,0 +1,217 @@
+.entertainment  {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-title {
+    margin-top: 50px;
+    text-align: center;
+}
+.here-what-we-got h1 {
+    text-align: center;
+    margin: 50px auto;
+}
+.imgwrapper {
+    width: 45px;
+}
+.icon__item {
+    display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+            margin-bottom: 50px;
+}
+.textwrapper {
+    padding-left: 20px;
+}
+.descr {
+    font-size: 20px;
+}
+.learning-program .rectangle .shape-title strong{
+    font-size: 30px;
+} 
+.shape-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top:40%;
+    color: #000000;
+}
+.rectangle {
+    position: relative;
+}
+.program-module {
+    margin-top: 60px;
+    text-align: center;
+}
+.all-modules {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+            color: #000000;
+}
+.all-modules:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 75%;
+    height: 1px;
+    background-image: linear-gradient(270deg,rgba(243,146,0,0),#000000 51%,rgba(243,146,0,0));
+    z-index: 10;
+    top: 100%;
+}
+.module {
+    display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.module span:first-child, .module strong {
+    margin-bottom:20px;
+}
+.program-modal {
+    text-decoration: none;
+}
+.program-modal button {
+    color: #474747;
+    background-color: #fcdb2f;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height: 60px;
+    border: 0 none;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.trainers-section {
+    margin-top: 100px;
+}
+.trainer-block  .img-container img{
+    border-radius: 50%;
+    border: 5px solid #fcdb2f;
+}
+.trainer-block .img-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.trainer-full-name {
+    font-size: 19px;
+    color: #000000;
+    text-align: center;
+    margin: 30px auto;
+}
+.trainer-block a {
+    display: table;
+    margin: auto;
+    color: #000000;
+    text-decoration: none;   
+}
+.trainer-block a button {
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 5px 25px;
+    color: #000000;
+}
+.trainers-section h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.coaching {
+    margin: 100px auto;
+}
+.coaching h1 {
+    text-align: center;
+}
+.pluse {
+    background-color: #fff8cf;
+    padding: 75px 0px;
+    position: relative;
+    bottom: 10px;
+}
+.pluse .img-container {
+    width: 75px;
+    margin-bottom: 25px;
+}
+.pluse .desc p {
+    font-size: 18px;
+    color: #000000;
+}
+#name, #surname , #email , #number  {
+    border-radius: 50rem;
+    border: 1px solid #FD9638;
+    padding: 5px 25px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+input[type=submit] {
+    margin: 0 auto;
+    display: table;
+    margin-top: 40px;
+}
+form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+@media (max-width:992px){
+    form {
+        -webkit-box-orient:vertical;
+     -webkit-box-direction:normal;
+     -webkit-flex-direction:column;
+         -ms-flex-direction:column;
+             flex-direction:column;
+    }
+    form .form-group {
+        width:100% !important;
+    }
+}
+form .form-group {
+    width: calc(45% - 50px);
+}

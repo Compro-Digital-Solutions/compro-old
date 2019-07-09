@@ -1,0 +1,22 @@
+.read-more {
+    background-color: #97ace5;
+    background-image: -webkit-gradient(linear, left top, right top, from(#79bce2), to(#56a0f5));
+    background-image: -webkit-linear-gradient(left, #93cae4, #437caa);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#696df3', endColorStr='#a200ff', gradientType='1');
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 15px;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;ari 7+ */
+}
+.contact-address i {
+    color: rgba(255,235,22) !important;
+}
+.p-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
