@@ -3371,4 +3371,18 @@ svg {
         -ms-flex-align: center;
             align-items: center;
 }
+.media-left svg{
+    fill: #3e59ff;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    padding: 17px;
+    font-size: 40px;
+    margin: 5px;
+}
+
 
