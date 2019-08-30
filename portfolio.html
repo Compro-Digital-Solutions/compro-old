@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script src="src/jquery-1.11.3.min.js"></script>
+    <script src="src/fm.revealator.jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/footer.css" />
+    <link rel="stylesheet" href="stylesheets/portfolio.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&amp;subset=cyrillic,cyrillic-ext"
+        rel="stylesheet">
+    <title>Our Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6 col-sm-6">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/img/Red.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 offset-md-3 col-6 col-sm-6">
+                    <nav>
+                        <ul>
+                            <li><a href="#">what we do</a></li>
+                            <li><a href="#">works</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li>
+                                <div id="lang-menu">
+                                    <div>
+                                        <span id="current-language">EN</span>
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </div>
+                                    <ul class="lang-list">
+                                        <li><a href="javascript:void(0);">EN </a></li>
+                                        <li><a href="javascript:void(0);">RU </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div id="burger-menu">
+                        <span></span>
+                    </div>
+                    <div id="menu">
+                        <ul>
+                            <li><a href="whatwedo.html">What we do</a></li>
+                            <li><a href="works.html">Works</a></li>
+                            <li><a href="aboutus.html">About us</a></li>
+                        </ul>
+                        <div class="menu-socials">
+                            <ul>
+                                <li><a href="#">EN</a></li>
+                                <li><a href="#">RU</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="content">
+        <div class="container">
+            <div class="works-title animate-works active-animate">
+                <h1 class="">WORKS</h1>
+                <h3 class="">Our selected work</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="project-title">FINAL BAKU 2019</h5>
+                    <div class="project">
+
+                        <video id="bakuafisha" preload="auto" loop="loop">
+                            <source src="assets/video/bakuafisha.mp4" type="video/mp4">
+                        </video>
+                        <div class="anchor">
+                            <a href=""> <i class="fas fa-long-arrow-alt-right"></i> View Work</a>
+                        </div>
+                        <div class="anchor-mobile">
+                            <a href=""> <i class="fas fa-long-arrow-alt-right"></i> View Work</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="project-title">BAKU AFISHA</h5>
+                    <div class="project">
+                        <video id="final" preload="auto" loop="loop">
+                            <source src="assets/video/uefa.mp4" type="video/mp4">
+                        </video>
+                        <div class="anchor">
+                            <a href=""> <i class="fas fa-long-arrow-alt-right"></i> View Work</a>
+                        </div>
+                        <div class="anchor-mobile">
+                            <a href=""> <i class="fas fa-long-arrow-alt-right"></i> View Work</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="project-title">FINAL BAKU 2019</h5>
+                    <div class="project">
+                        <video id="final" preload="auto" loop="loop">
+                            <source src="assets/video/uefa.mp4" type="video/mp4">
+                        </video>
+                        <div class="anchor">
+                            <a href=""> <i class="fas fa-long-arrow-alt-right"></i> View Work</a>
+                        </div>
+                        <div class="anchor-mobile">
+                            <a href=""> <i class="fas fa-long-arrow-alt-right"></i> View Work</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="project-title">BAKU AFISHA</h5>
+                    <div class="project">
+                        <video id="bakuafisha" preload="auto" loop="loop">
+                            <source src="assets/video/bakuafisha.mp4" type="video/mp4">
+                        </video>
+                        <div class="anchor">
+                            <a href=""> <i class="fas fa-long-arrow-alt-right"></i> View Work</a>
+                        </div>
+                        <div class="anchor-mobile">
+                            <a href=""> <i class="fas fa-long-arrow-alt-right"></i> View Work</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+    <!-- MODAL WINDOW START -->
+    <div id="modal" class="modal">
+        <div class="modal-inner">
+            <h3 class="form-title">Начать проект</h3>
+            <div>
+                <p class="form-description">Поделитесь контактами и информацией о проекте, чтобы мы связались с вами и
+                    предложили подходящее решение.</p>
+                <form action="post">
+                    <div class="input-inner">
+                        <input name="name" type="text" placeholder="Ваше имя" />
+                    </div>
+                    <div class="input-inner">
+                        <input name="email" type="email" placeholder="E-mail" />
+                    </div>
+                    <div class="input-inner">
+                        <textarea name="message" id="" rows="1" placeholder="Сообщение"></textarea>
+                    </div>
+
+                    <div class="input-inner checkbox">
+                        <input type="checkbox" id="rules" checked="checked" class="checkbox-custom">
+                        <label for="rules" class="js-rules checkbox-custom-label">
+                            Согласен на обработку персональных данных</a>
+                        </label>
+                    </div>
+                    <input type="submit" value="Отправить">
+                </form>
+                <button class="md-close" id="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JS Files -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+
+    <!--JS codes  -->
+
+    <script>
+        $(".project").mouseover(function () {
+            $(this).children("video")[0].play();
+        })
+        $(".project").mouseout(function () {
+            $(this).children("video")[0].pause();
+        })
+        const body = document.querySelector("body");
+        const [burgerMenu, overlay] = [document.getElementById('burger-menu'), document.getElementById('menu')];
+        burgerMenu.addEventListener('click', function () {
+            this.classList.toggle("close");
+            overlay.classList.toggle("overlay");
+            this.classList.contains("close") ? body.style.overflowY = "hidden" : body.style.overflowY = "auto"
+        });
+        function VideoPlay() {
+        }
+        var x = window.matchMedia("(max-width: 767px)")
+        VideoPlay();
+        x.addListener(VideoPlay()) // Attach listener function on state changes
+        $("#lang-menu").on("click", function () {
+            $(this).addClass("cls-border-lang");
+            $(this).children().eq(0).addClass("cls-borderbottom-lang");
+            $("#lang-menu ul").stop().slideToggle(100);
+        },
+            function () {
+                $(this).removeClass("cls-border-lang");
+                $(this).children().eq(0).removeClass("cls-borderbottom-lang");
+                $("#lang-menu ul").stop().slideToggle(100);
+            }
+        );
+        /// on click change language 
+        $("#lang-menu ul li").on("click", function () {
+            //select lang and apply changes
+            var $lang = $(this).text();
+            $("#lang-menu span").text($lang);
+        });
+    </script>
+</body>
+
+</html>

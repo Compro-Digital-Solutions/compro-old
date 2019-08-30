@@ -5,8 +5,10 @@
 }
 
 .main-title {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
 }
 .here-what-we-got h1 {
     text-align: center;

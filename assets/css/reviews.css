@@ -1,0 +1,62 @@
+#reviews {
+  margin-top: 150px;
+}
+#reviews .review-body {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+#reviews .review-body .read-more-btn {
+  background-color: #fdc830;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fdc830), to(#f37335));
+  background-image: -webkit-linear-gradient(left, #fdc830, #f37335);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#696df3', endColorStr='#a200ff', gradientType='1');
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  display: inline-block;
+}
+#reviews .card-body {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
+#reviews .letter{
+  cursor: zoom-in;
+}
+
+#popup-plugin{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.76);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -6;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#popup-plugin .wrapper{
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+#popup-plugin .wrapper:hover{
+  cursor: zoom-out;
+}
+#popup-plugin .wrapper img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+

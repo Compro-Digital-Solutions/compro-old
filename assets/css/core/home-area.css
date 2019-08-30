@@ -81,9 +81,9 @@ ul#nav {
 }
 
 .home-button a {
-    background-color: #97ace5;
-    background-image: -webkit-gradient(linear, left top, right top, from(#79bce2), to(#56a0f5));
-    background-image: -webkit-linear-gradient(left, #93cae4, #437caa);
+    background-color: #fdc830;
+    background-image: -webkit-gradient(linear, left top, right top, from(#fdc830), to(#f37335));
+    background-image: -webkit-linear-gradient(left, #fdc830, #f37335);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#696df3', endColorStr='#a200ff', gradientType='1');
     border-radius: 50px;
     color: #fff;

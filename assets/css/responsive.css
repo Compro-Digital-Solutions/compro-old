@@ -94,7 +94,7 @@
     }
     .vision-dots .dot {
         padding: 24px 20px;
-        margin: 0 15px;
+        margin: 0 auto;
     }
     .single_price{
         margin-bottom: 50px;
@@ -250,7 +250,70 @@
     ul#nav {
         margin-left: 0;
     }
+    #search-grad{
+        width: 100%;
+    }
+    #search-grad input[type="submit"]{
+        background: #FD9638;
+        color: white;
+        -webkit-appearance: none;
+        border: none;
+        text-transform: uppercase;
+        position: relative;
+        padding: 13px 20px;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        -webkit-transition: all 333ms ease-in-out;
+        -moz-transition: all 333ms ease-in-out;
+        -o-transition: all 333ms ease-in-out;
+        -ms-transition: all 333ms ease-in-out;
+        transition: all 333ms ease-in-out;
+    }
+    .calendar {
+        position: fixed;
+        top: 70%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 5;
+        left: 0;
+        width: 50px;
+    }
+    .team-member .img-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .team-member .img-container .bg{
+        width: 100%;
+        border-radius: 0%;
+    }
+    .anchors{
+        display: flex;
 
+    }
+    .list-graduates li .anchors a{
+        margin-left: 0px ;
+    }
+    .main-block {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 70px;
+        border-bottom-left-radius: unset;
+        border-top-left-radius: unset;
+        overflow: hidden;  /*bunu ac task yerine yetirildi */
+    }
+    .author-content a{
+        color: #4694f9;
+    }
+    .team_common .member_img img{
+        width: 50%;
+        margin: auto;
+
+    }
     .welcome-text-area .area-bg::before {
         width: 100%;
     }
@@ -259,6 +322,8 @@
     }
     .team-slider .team_common .member_info {
         top: 80%;
+        display: block;
+        padding: 20px;
     }
 
     .welcome-text-area .area-bg::before {
@@ -280,6 +345,7 @@
     .footer-social-bookmark .social-bookmark li a {
         margin: 5px;
     }
+
 
     .accordion-toggle .fa-angle-down {
         display: none;
